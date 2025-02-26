@@ -1,0 +1,33 @@
+{
+    "name": "@guloggratis/code-challenge-blackjack",
+    "private": true,
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "prettier": "^3.5.2",
+        "typescript": "^5.7.3",
+        "vitest": "^3.0.7"
+    },
+    "prettier": {
+        "semi": false,
+        "useTabs": false,
+        "tabWidth": 4,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "proseWrap": "always",
+        "jsxBracketSameLine": true,
+        "bracketSpacing": true,
+        "arrowParens": "avoid",
+        "printWidth": 120,
+        "overrides": [
+            {
+                "files": "*.{yml,yaml}",
+                "options": {
+                    "tabWidth": 2
+                }
+            }
+        ]
+    }
+}
